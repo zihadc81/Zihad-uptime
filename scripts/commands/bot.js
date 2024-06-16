@@ -16,7 +16,7 @@ module.exports.config = {
   permission: 0,
   prefix: false,
   credits: "Nayan",
-  description: "talk with Mim",
+  description: "talk with bot",
   category: "user",
   usages: "",
   cooldowns: 5,
