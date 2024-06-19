@@ -57,13 +57,13 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("~ তোমার বাল উঠে নাই নাকি তোমার?? 🤖", threadID);
    };
 
-  if ((event.body.toLowerCase() == "jihad") || (event.body.toLowerCase() == "জিহাদ ভাই") || (event.body.toLowerCase() == "জিহাদ") || (event.body.toLowerCase() == "zihad")) {
+  if ((event.body.toLowerCase() == "jihad") || (event.body.toLowerCase() == "জিহাদ ভাই") || (event.body.toLowerCase() == "জিহাদ") || (event.body.toLowerCase() == "বট")) {
      return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);
 
        
    };
 
-   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
+   if ((event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "ceo")) {
      return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞𝐙𝐈𝐇𝐀𝐃 𝐊𝐇𝐀𝐍(✷‿✷)☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐓𝐎𝐌.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/100067540204855\nতার সাতে যোগা যোগ করবেন WhatsApp :- +8801998679205", threadID);
    };
 
