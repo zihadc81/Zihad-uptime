@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "zihad",
+  name: "zihad","jihad",
 	version: "1.0.0",
 	permission: 0,
   prefix: false,
