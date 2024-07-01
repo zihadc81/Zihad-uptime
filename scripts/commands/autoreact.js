@@ -35,7 +35,7 @@ handleEvent: async ({ api, event, Threads }) => {
    const isEnable = fs.readFileSync(pathFile, 'utf-8');
    if (isEnable == 'true') {
 
-  const reactions = ["🌸","🩷","🩵","🩶","🪼","🪻","🪇","🤭","🥺","😶","👿","🤓"🫦","😾","🤪","🤬","🤫","😼","🌷","😎","🤦","👀","😆","🤡","🤧","😫","😇","😹","😭"];
+  const reactions = ["🌸","","","","","","","🤭","🥺","😶","👿","🤓"🫦","😾","🤪","🤬","🤫","😼","🌷","😎","🤦","👀","😆","🤡","🤧","😫","😇","😹","😭"];
   var nayan = reactions[Math.floor(Math.random() * reactions.length)];
 
   api.setMessageReaction(nayan, event.messageID, (err) => {
