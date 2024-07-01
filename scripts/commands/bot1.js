@@ -18,7 +18,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl = ["\n=== [ আমাকে 'Mim' বলে ডাকো ] ====\n\n━━━━━━━━━━━━━━━━━━\n\n[ ▶️]➜ 𝗠𝗬 𝗕𝗢𝗦𝗦:𝗭𝗜𝗛𝗔𝗗 𝗜𝗦𝗟𝗔𝗠\n\n[ ▶️]➜ 𝗜𝗕: m.me/100067540204855\n\n[ ▶️]➜ 𝗟𝗶𝗻𝗸𝗳𝗯: https://www.facebook.com/profile.php?id=100067540204855\n\n━━━━━━━━━━━━━━━━━━"];
+  var tl = ["\n=== [ আমাকে 'Bot' বলে ডাকো ] ====\n\n━━━━━━━━━━━━━━━━━━\n\n[ ▶️]➜ 𝗠𝗬 𝗕𝗢𝗦𝗦:𝗭𝗜𝗛𝗔𝗗 𝗜𝗦𝗟𝗔𝗠\n\n[ ▶️]➜ 𝗜𝗕: m.me/100067540204855\n\n[ ▶️]➜ 𝗟𝗶𝗻𝗸𝗳𝗯: https://www.facebook.com/profile.php?id=100067540204855\n\n━━━━━━━━━━━━━━━━━━"];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "miss you bot") || (event.body.toLowerCase() == "miss you")) {
@@ -185,7 +185,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
    mess = "{name}"
   
-  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
+  if (event.body.indexOf("inbox") == 0 || (event.body.indexOf("jannat") == 0)) {
     var msg = {
       body: `${name}, ${rand}`
     }
