@@ -185,7 +185,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
    mess = "{name}"
   
-  if (event.body.indexOf("Jannat") == 0 || (event.body.indexOf("jannat") == 0)) {
+  if (event.body.indexOf("Robot") == 0 || (event.body.indexOf("robot") == 0)) {
     var msg = {
       body: `${name}, ${rand}`
     }
